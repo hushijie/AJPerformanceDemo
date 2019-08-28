@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D344AB122D836C500DEB898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AB022D836C500DEB898 /* AppDelegate.m */; };
+		9D344AB422D836C500DEB898 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AB322D836C500DEB898 /* ViewController.m */; };
+		9D344AB722D836C500DEB898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D344AB522D836C500DEB898 /* Main.storyboard */; };
+		9D344AB922D836C800DEB898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D344AB822D836C800DEB898 /* Assets.xcassets */; };
+		9D344ABC22D836C800DEB898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D344ABA22D836C800DEB898 /* LaunchScreen.storyboard */; };
+		9D344ABF22D836C800DEB898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344ABE22D836C800DEB898 /* main.m */; };
+		9D344AC922D836C800DEB898 /* AJPerformanceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AC822D836C800DEB898 /* AJPerformanceDemoTests.m */; };
+		9D344AD422D836C800DEB898 /* AJPerformanceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AD322D836C800DEB898 /* AJPerformanceDemoUITests.m */; };
+		9D344AE822D8394600DEB898 /* AJFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AE722D8394600DEB898 /* AJFPSLabel.m */; };
+		9D344AEB22D8983700DEB898 /* AJWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AEA22D8983700DEB898 /* AJWeakProxy.m */; };
+		9D344AEE22D89B9000DEB898 /* AJCpuUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AED22D89B9000DEB898 /* AJCpuUsage.m */; };
+		9D344AF122D8A0CD00DEB898 /* AJAppMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AF022D8A0CD00DEB898 /* AJAppMemory.m */; };
+		9D344AF422DC1F9300DEB898 /* AJNetworkFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AF322DC1F9300DEB898 /* AJNetworkFlow.m */; };
+		9D344AF722DC206800DEB898 /* AJNetworkFlowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AF622DC206800DEB898 /* AJNetworkFlowModel.m */; };
+		9D344B0A22DC226B00DEB898 /* LJ_HomeDirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AFA22DC226B00DEB898 /* LJ_HomeDirViewController.m */; };
+		9D344B0B22DC226B00DEB898 /* SuspensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344AFF22DC226B00DEB898 /* SuspensionButton.m */; };
+		9D344B0C22DC226B00DEB898 /* SandBoxPreviewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0222DC226B00DEB898 /* SandBoxPreviewTool.m */; };
+		9D344B0D22DC226B00DEB898 /* LJ_DirToolNavigatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0322DC226B00DEB898 /* LJ_DirToolNavigatorController.m */; };
+		9D344B0E22DC226B00DEB898 /* SandBoxPreviewTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D344B0422DC226B00DEB898 /* SandBoxPreviewTool.bundle */; };
+		9D344B0F22DC226B00DEB898 /* LJ_FileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0522DC226B00DEB898 /* LJ_FileInfo.m */; };
+		9D344B1022DC226B00DEB898 /* LJ_FileInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0622DC226B00DEB898 /* LJ_FileInfoController.m */; };
+		9D344B1122DC226B00DEB898 /* LJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0722DC226B00DEB898 /* LJAlertView.m */; };
+		9D344B1222DC226B00DEB898 /* SLUnilityObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B0822DC226B00DEB898 /* SLUnilityObject.m */; };
+		9D344B1622DC2C1C00DEB898 /* AJFloatingBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B1522DC2C1C00DEB898 /* AJFloatingBall.m */; };
+		9D344B1922DC515F00DEB898 /* AJFloatingBallManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B1822DC515F00DEB898 /* AJFloatingBallManager.m */; };
+		9D344B1C22DC553600DEB898 /* AJFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B1B22DC553600DEB898 /* AJFileManagerTool.m */; };
+		9D344B1F22DC835900DEB898 /* AJPerformanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B1E22DC835900DEB898 /* AJPerformanceView.m */; };
+		9D344B2222DC878800DEB898 /* AJPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B2122DC878800DEB898 /* AJPerformanceViewController.m */; };
+		9D344B2522DC8B4800DEB898 /* AJPerformanceMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D344B2422DC8B4800DEB898 /* AJPerformanceMonitoring.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D344AC522D836C800DEB898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D344AA422D836C500DEB898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D344AAB22D836C500DEB898;
+			remoteInfo = AJPerformanceDemo;
+		};
+		9D344AD022D836C800DEB898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D344AA422D836C500DEB898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D344AAB22D836C500DEB898;
+			remoteInfo = AJPerformanceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D344AAC22D836C500DEB898 /* AJPerformanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJPerformanceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D344AAF22D836C500DEB898 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D344AB022D836C500DEB898 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D344AB222D836C500DEB898 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D344AB322D836C500DEB898 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D344AB622D836C500DEB898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D344AB822D836C800DEB898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D344ABB22D836C800DEB898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D344ABD22D836C800DEB898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D344ABE22D836C800DEB898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D344AC422D836C800DEB898 /* AJPerformanceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJPerformanceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D344AC822D836C800DEB898 /* AJPerformanceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPerformanceDemoTests.m; sourceTree = "<group>"; };
+		9D344ACA22D836C800DEB898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D344ACF22D836C800DEB898 /* AJPerformanceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJPerformanceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D344AD322D836C800DEB898 /* AJPerformanceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPerformanceDemoUITests.m; sourceTree = "<group>"; };
+		9D344AD522D836C800DEB898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D344AE622D8394600DEB898 /* AJFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJFPSLabel.h; sourceTree = "<group>"; };
+		9D344AE722D8394600DEB898 /* AJFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJFPSLabel.m; sourceTree = "<group>"; };
+		9D344AE922D8983700DEB898 /* AJWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWeakProxy.h; sourceTree = "<group>"; };
+		9D344AEA22D8983700DEB898 /* AJWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWeakProxy.m; sourceTree = "<group>"; };
+		9D344AEC22D89B9000DEB898 /* AJCpuUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJCpuUsage.h; sourceTree = "<group>"; };
+		9D344AED22D89B9000DEB898 /* AJCpuUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJCpuUsage.m; sourceTree = "<group>"; };
+		9D344AEF22D8A0CD00DEB898 /* AJAppMemory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJAppMemory.h; sourceTree = "<group>"; };
+		9D344AF022D8A0CD00DEB898 /* AJAppMemory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJAppMemory.m; sourceTree = "<group>"; };
+		9D344AF222DC1F9300DEB898 /* AJNetworkFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJNetworkFlow.h; sourceTree = "<group>"; };
+		9D344AF322DC1F9300DEB898 /* AJNetworkFlow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJNetworkFlow.m; sourceTree = "<group>"; };
+		9D344AF522DC206800DEB898 /* AJNetworkFlowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJNetworkFlowModel.h; sourceTree = "<group>"; };
+		9D344AF622DC206800DEB898 /* AJNetworkFlowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJNetworkFlowModel.m; sourceTree = "<group>"; };
+		9D344AF922DC226B00DEB898 /* SandBoxPreviewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandBoxPreviewTool.h; sourceTree = "<group>"; };
+		9D344AFA22DC226B00DEB898 /* LJ_HomeDirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJ_HomeDirViewController.m; sourceTree = "<group>"; };
+		9D344AFB22DC226B00DEB898 /* LJ_DirToolNavigatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJ_DirToolNavigatorController.h; sourceTree = "<group>"; };
+		9D344AFC22DC226B00DEB898 /* LJ_FileInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJ_FileInfoController.h; sourceTree = "<group>"; };
+		9D344AFD22DC226B00DEB898 /* LJ_FileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJ_FileInfo.h; sourceTree = "<group>"; };
+		9D344AFE22DC226B00DEB898 /* SLUnilityObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLUnilityObject.h; sourceTree = "<group>"; };
+		9D344AFF22DC226B00DEB898 /* SuspensionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionButton.m; sourceTree = "<group>"; };
+		9D344B0022DC226B00DEB898 /* LJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAlertView.h; sourceTree = "<group>"; };
+		9D344B0122DC226B00DEB898 /* LJ_HomeDirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJ_HomeDirViewController.h; sourceTree = "<group>"; };
+		9D344B0222DC226B00DEB898 /* SandBoxPreviewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandBoxPreviewTool.m; sourceTree = "<group>"; };
+		9D344B0322DC226B00DEB898 /* LJ_DirToolNavigatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJ_DirToolNavigatorController.m; sourceTree = "<group>"; };
+		9D344B0422DC226B00DEB898 /* SandBoxPreviewTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SandBoxPreviewTool.bundle; sourceTree = "<group>"; };
+		9D344B0522DC226B00DEB898 /* LJ_FileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJ_FileInfo.m; sourceTree = "<group>"; };
+		9D344B0622DC226B00DEB898 /* LJ_FileInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJ_FileInfoController.m; sourceTree = "<group>"; };
+		9D344B0722DC226B00DEB898 /* LJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAlertView.m; sourceTree = "<group>"; };
+		9D344B0822DC226B00DEB898 /* SLUnilityObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLUnilityObject.m; sourceTree = "<group>"; };
+		9D344B0922DC226B00DEB898 /* SuspensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionButton.h; sourceTree = "<group>"; };
+		9D344B1422DC2C1C00DEB898 /* AJFloatingBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJFloatingBall.h; sourceTree = "<group>"; };
+		9D344B1522DC2C1C00DEB898 /* AJFloatingBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJFloatingBall.m; sourceTree = "<group>"; };
+		9D344B1722DC515F00DEB898 /* AJFloatingBallManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJFloatingBallManager.h; sourceTree = "<group>"; };
+		9D344B1822DC515F00DEB898 /* AJFloatingBallManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJFloatingBallManager.m; sourceTree = "<group>"; };
+		9D344B1A22DC553600DEB898 /* AJFileManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJFileManagerTool.h; sourceTree = "<group>"; };
+		9D344B1B22DC553600DEB898 /* AJFileManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJFileManagerTool.m; sourceTree = "<group>"; };
+		9D344B1D22DC835900DEB898 /* AJPerformanceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJPerformanceView.h; sourceTree = "<group>"; };
+		9D344B1E22DC835900DEB898 /* AJPerformanceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPerformanceView.m; sourceTree = "<group>"; };
+		9D344B2022DC878800DEB898 /* AJPerformanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJPerformanceViewController.h; sourceTree = "<group>"; };
+		9D344B2122DC878800DEB898 /* AJPerformanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPerformanceViewController.m; sourceTree = "<group>"; };
+		9D344B2322DC8B4800DEB898 /* AJPerformanceMonitoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJPerformanceMonitoring.h; sourceTree = "<group>"; };
+		9D344B2422DC8B4800DEB898 /* AJPerformanceMonitoring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJPerformanceMonitoring.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D344AA922D836C500DEB898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344AC122D836C800DEB898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344ACC22D836C800DEB898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D344AA322D836C500DEB898 = {
+			isa = PBXGroup;
+			children = (
+				9D344AAE22D836C500DEB898 /* AJPerformanceDemo */,
+				9D344AC722D836C800DEB898 /* AJPerformanceDemoTests */,
+				9D344AD222D836C800DEB898 /* AJPerformanceDemoUITests */,
+				9D344AAD22D836C500DEB898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D344AAD22D836C500DEB898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AAC22D836C500DEB898 /* AJPerformanceDemo.app */,
+				9D344AC422D836C800DEB898 /* AJPerformanceDemoTests.xctest */,
+				9D344ACF22D836C800DEB898 /* AJPerformanceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D344AAE22D836C500DEB898 /* AJPerformanceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AE122D838DF00DEB898 /* AJPerformanceMonitoring */,
+				9D344AAF22D836C500DEB898 /* AppDelegate.h */,
+				9D344AB022D836C500DEB898 /* AppDelegate.m */,
+				9D344AB222D836C500DEB898 /* ViewController.h */,
+				9D344AB322D836C500DEB898 /* ViewController.m */,
+				9D344AB522D836C500DEB898 /* Main.storyboard */,
+				9D344AB822D836C800DEB898 /* Assets.xcassets */,
+				9D344ABA22D836C800DEB898 /* LaunchScreen.storyboard */,
+				9D344ABD22D836C800DEB898 /* Info.plist */,
+				9D344ABE22D836C800DEB898 /* main.m */,
+			);
+			path = AJPerformanceDemo;
+			sourceTree = "<group>";
+		};
+		9D344AC722D836C800DEB898 /* AJPerformanceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AC822D836C800DEB898 /* AJPerformanceDemoTests.m */,
+				9D344ACA22D836C800DEB898 /* Info.plist */,
+			);
+			path = AJPerformanceDemoTests;
+			sourceTree = "<group>";
+		};
+		9D344AD222D836C800DEB898 /* AJPerformanceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AD322D836C800DEB898 /* AJPerformanceDemoUITests.m */,
+				9D344AD522D836C800DEB898 /* Info.plist */,
+			);
+			path = AJPerformanceDemoUITests;
+			sourceTree = "<group>";
+		};
+		9D344AE122D838DF00DEB898 /* AJPerformanceMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				9D344B2322DC8B4800DEB898 /* AJPerformanceMonitoring.h */,
+				9D344B2422DC8B4800DEB898 /* AJPerformanceMonitoring.m */,
+				9D344B1322DC2BEB00DEB898 /* PerformanceView */,
+				9D344AF822DC226B00DEB898 /* SandBoxPreviewTool */,
+				9D344AE222D838DF00DEB898 /* Memory */,
+				9D344AE322D838DF00DEB898 /* CPU */,
+				9D344AE422D838DF00DEB898 /* NetworkFlow */,
+				9D344AE522D838DF00DEB898 /* FPS */,
+			);
+			path = AJPerformanceMonitoring;
+			sourceTree = "<group>";
+		};
+		9D344AE222D838DF00DEB898 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AEF22D8A0CD00DEB898 /* AJAppMemory.h */,
+				9D344AF022D8A0CD00DEB898 /* AJAppMemory.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		9D344AE322D838DF00DEB898 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AEC22D89B9000DEB898 /* AJCpuUsage.h */,
+				9D344AED22D89B9000DEB898 /* AJCpuUsage.m */,
+			);
+			path = CPU;
+			sourceTree = "<group>";
+		};
+		9D344AE422D838DF00DEB898 /* NetworkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AF222DC1F9300DEB898 /* AJNetworkFlow.h */,
+				9D344AF322DC1F9300DEB898 /* AJNetworkFlow.m */,
+				9D344AF522DC206800DEB898 /* AJNetworkFlowModel.h */,
+				9D344AF622DC206800DEB898 /* AJNetworkFlowModel.m */,
+			);
+			path = NetworkFlow;
+			sourceTree = "<group>";
+		};
+		9D344AE522D838DF00DEB898 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				9D344AE622D8394600DEB898 /* AJFPSLabel.h */,
+				9D344AE722D8394600DEB898 /* AJFPSLabel.m */,
+				9D344AE922D8983700DEB898 /* AJWeakProxy.h */,
+				9D344AEA22D8983700DEB898 /* AJWeakProxy.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		9D344AF822DC226B00DEB898 /* SandBoxPreviewTool */ = {
+			isa = PBXGroup;
+			children = (
+				9D344B0422DC226B00DEB898 /* SandBoxPreviewTool.bundle */,
+				9D344AF922DC226B00DEB898 /* SandBoxPreviewTool.h */,
+				9D344AFA22DC226B00DEB898 /* LJ_HomeDirViewController.m */,
+				9D344AFB22DC226B00DEB898 /* LJ_DirToolNavigatorController.h */,
+				9D344AFC22DC226B00DEB898 /* LJ_FileInfoController.h */,
+				9D344AFD22DC226B00DEB898 /* LJ_FileInfo.h */,
+				9D344AFE22DC226B00DEB898 /* SLUnilityObject.h */,
+				9D344AFF22DC226B00DEB898 /* SuspensionButton.m */,
+				9D344B0022DC226B00DEB898 /* LJAlertView.h */,
+				9D344B0122DC226B00DEB898 /* LJ_HomeDirViewController.h */,
+				9D344B0222DC226B00DEB898 /* SandBoxPreviewTool.m */,
+				9D344B0322DC226B00DEB898 /* LJ_DirToolNavigatorController.m */,
+				9D344B0522DC226B00DEB898 /* LJ_FileInfo.m */,
+				9D344B0622DC226B00DEB898 /* LJ_FileInfoController.m */,
+				9D344B0722DC226B00DEB898 /* LJAlertView.m */,
+				9D344B0822DC226B00DEB898 /* SLUnilityObject.m */,
+				9D344B0922DC226B00DEB898 /* SuspensionButton.h */,
+			);
+			path = SandBoxPreviewTool;
+			sourceTree = "<group>";
+		};
+		9D344B1322DC2BEB00DEB898 /* PerformanceView */ = {
+			isa = PBXGroup;
+			children = (
+				9D344B1422DC2C1C00DEB898 /* AJFloatingBall.h */,
+				9D344B1522DC2C1C00DEB898 /* AJFloatingBall.m */,
+				9D344B1722DC515F00DEB898 /* AJFloatingBallManager.h */,
+				9D344B1822DC515F00DEB898 /* AJFloatingBallManager.m */,
+				9D344B1A22DC553600DEB898 /* AJFileManagerTool.h */,
+				9D344B1B22DC553600DEB898 /* AJFileManagerTool.m */,
+				9D344B1D22DC835900DEB898 /* AJPerformanceView.h */,
+				9D344B1E22DC835900DEB898 /* AJPerformanceView.m */,
+				9D344B2022DC878800DEB898 /* AJPerformanceViewController.h */,
+				9D344B2122DC878800DEB898 /* AJPerformanceViewController.m */,
+			);
+			path = PerformanceView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D344AAB22D836C500DEB898 /* AJPerformanceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D344AD822D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemo" */;
+			buildPhases = (
+				9D344AA822D836C500DEB898 /* Sources */,
+				9D344AA922D836C500DEB898 /* Frameworks */,
+				9D344AAA22D836C500DEB898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJPerformanceDemo;
+			productName = AJPerformanceDemo;
+			productReference = 9D344AAC22D836C500DEB898 /* AJPerformanceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D344AC322D836C800DEB898 /* AJPerformanceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D344ADB22D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemoTests" */;
+			buildPhases = (
+				9D344AC022D836C800DEB898 /* Sources */,
+				9D344AC122D836C800DEB898 /* Frameworks */,
+				9D344AC222D836C800DEB898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D344AC622D836C800DEB898 /* PBXTargetDependency */,
+			);
+			name = AJPerformanceDemoTests;
+			productName = AJPerformanceDemoTests;
+			productReference = 9D344AC422D836C800DEB898 /* AJPerformanceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D344ACE22D836C800DEB898 /* AJPerformanceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D344ADE22D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemoUITests" */;
+			buildPhases = (
+				9D344ACB22D836C800DEB898 /* Sources */,
+				9D344ACC22D836C800DEB898 /* Frameworks */,
+				9D344ACD22D836C800DEB898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D344AD122D836C800DEB898 /* PBXTargetDependency */,
+			);
+			name = AJPerformanceDemoUITests;
+			productName = AJPerformanceDemoUITests;
+			productReference = 9D344ACF22D836C800DEB898 /* AJPerformanceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D344AA422D836C500DEB898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AJ;
+				TargetAttributes = {
+					9D344AAB22D836C500DEB898 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9D344AC322D836C800DEB898 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9D344AAB22D836C500DEB898;
+					};
+					9D344ACE22D836C800DEB898 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9D344AAB22D836C500DEB898;
+					};
+				};
+			};
+			buildConfigurationList = 9D344AA722D836C500DEB898 /* Build configuration list for PBXProject "AJPerformanceDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D344AA322D836C500DEB898;
+			productRefGroup = 9D344AAD22D836C500DEB898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D344AAB22D836C500DEB898 /* AJPerformanceDemo */,
+				9D344AC322D836C800DEB898 /* AJPerformanceDemoTests */,
+				9D344ACE22D836C800DEB898 /* AJPerformanceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D344AAA22D836C500DEB898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D344B0E22DC226B00DEB898 /* SandBoxPreviewTool.bundle in Resources */,
+				9D344ABC22D836C800DEB898 /* LaunchScreen.storyboard in Resources */,
+				9D344AB922D836C800DEB898 /* Assets.xcassets in Resources */,
+				9D344AB722D836C500DEB898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344AC222D836C800DEB898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344ACD22D836C800DEB898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D344AA822D836C500DEB898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D344B0D22DC226B00DEB898 /* LJ_DirToolNavigatorController.m in Sources */,
+				9D344B1122DC226B00DEB898 /* LJAlertView.m in Sources */,
+				9D344B2222DC878800DEB898 /* AJPerformanceViewController.m in Sources */,
+				9D344B1C22DC553600DEB898 /* AJFileManagerTool.m in Sources */,
+				9D344AB422D836C500DEB898 /* ViewController.m in Sources */,
+				9D344AF722DC206800DEB898 /* AJNetworkFlowModel.m in Sources */,
+				9D344B1F22DC835900DEB898 /* AJPerformanceView.m in Sources */,
+				9D344B0F22DC226B00DEB898 /* LJ_FileInfo.m in Sources */,
+				9D344B1922DC515F00DEB898 /* AJFloatingBallManager.m in Sources */,
+				9D344AEE22D89B9000DEB898 /* AJCpuUsage.m in Sources */,
+				9D344B1022DC226B00DEB898 /* LJ_FileInfoController.m in Sources */,
+				9D344AEB22D8983700DEB898 /* AJWeakProxy.m in Sources */,
+				9D344B0B22DC226B00DEB898 /* SuspensionButton.m in Sources */,
+				9D344B1222DC226B00DEB898 /* SLUnilityObject.m in Sources */,
+				9D344ABF22D836C800DEB898 /* main.m in Sources */,
+				9D344AB122D836C500DEB898 /* AppDelegate.m in Sources */,
+				9D344AF122D8A0CD00DEB898 /* AJAppMemory.m in Sources */,
+				9D344B2522DC8B4800DEB898 /* AJPerformanceMonitoring.m in Sources */,
+				9D344B1622DC2C1C00DEB898 /* AJFloatingBall.m in Sources */,
+				9D344B0A22DC226B00DEB898 /* LJ_HomeDirViewController.m in Sources */,
+				9D344AE822D8394600DEB898 /* AJFPSLabel.m in Sources */,
+				9D344B0C22DC226B00DEB898 /* SandBoxPreviewTool.m in Sources */,
+				9D344AF422DC1F9300DEB898 /* AJNetworkFlow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344AC022D836C800DEB898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D344AC922D836C800DEB898 /* AJPerformanceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344ACB22D836C800DEB898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D344AD422D836C800DEB898 /* AJPerformanceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D344AC622D836C800DEB898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D344AAB22D836C500DEB898 /* AJPerformanceDemo */;
+			targetProxy = 9D344AC522D836C800DEB898 /* PBXContainerItemProxy */;
+		};
+		9D344AD122D836C800DEB898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D344AAB22D836C500DEB898 /* AJPerformanceDemo */;
+			targetProxy = 9D344AD022D836C800DEB898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D344AB522D836C500DEB898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D344AB622D836C500DEB898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D344ABA22D836C800DEB898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D344ABB22D836C800DEB898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D344AD622D836C800DEB898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D344AD722D836C800DEB898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D344AD922D836C800DEB898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D344ADA22D836C800DEB898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D344ADC22D836C800DEB898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJPerformanceDemo.app/AJPerformanceDemo";
+			};
+			name = Debug;
+		};
+		9D344ADD22D836C800DEB898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJPerformanceDemo.app/AJPerformanceDemo";
+			};
+			name = Release;
+		};
+		9D344ADF22D836C800DEB898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AJPerformanceDemo;
+			};
+			name = Debug;
+		};
+		9D344AE022D836C800DEB898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TY8HZG4898;
+				INFOPLIST_FILE = AJPerformanceDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJPerformanceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AJPerformanceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D344AA722D836C500DEB898 /* Build configuration list for PBXProject "AJPerformanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D344AD622D836C800DEB898 /* Debug */,
+				9D344AD722D836C800DEB898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D344AD822D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D344AD922D836C800DEB898 /* Debug */,
+				9D344ADA22D836C800DEB898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D344ADB22D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D344ADC22D836C800DEB898 /* Debug */,
+				9D344ADD22D836C800DEB898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D344ADE22D836C800DEB898 /* Build configuration list for PBXNativeTarget "AJPerformanceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D344ADF22D836C800DEB898 /* Debug */,
+				9D344AE022D836C800DEB898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D344AA422D836C500DEB898 /* Project object */;
+}
